@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Umpire Buddy</string>
+    <string name="Strike">Strike:     </string>
+    <string name="Ball">Ball:      </string>
+    <string name="STRIKE">STRIKE</string>
+    <string name="BALL">BALL</string>
+
+
+</resources>

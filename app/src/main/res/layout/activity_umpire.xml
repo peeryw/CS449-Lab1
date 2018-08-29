@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+
+    <TextView
+        android:id="@+id/textViewStrike"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_x="59dp"
+        android:layout_y="114dp"
+        android:text="@string/Strike"
+        android:textColor="@android:color/white"
+        android:textSize="20pt"
+        android:textStyle="bold"
+        tools:text="Strike:" />
+
+    <TextView
+        android:id="@+id/textViewBall"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_x="61dp"
+        android:layout_y="205dp"
+        android:text="Ball"
+        android:textColor="@android:color/white"
+        android:textSize="20pt"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="231dp"
+        tools:text="Ball:" />
+
+    <Button
+        android:id="@+id/buttonStrike"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_x="57dp"
+        android:layout_y="313dp"
+        android:onClick="strike_count_up"
+        android:text="@string/STRIKE"
+        android:textSize="10pt"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="352dp" />
+
+    <Button
+        android:id="@+id/buttonBall"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_x="60dp"
+        android:layout_y="402dp"
+        android:onClick="ball_count_up"
+        android:text="@string/BALL"
+        android:textSize="10pt"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="421dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="95dp" />
+
+    <TextView
+        android:id="@+id/textViewStrikeCount"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_x="291dp"
+        android:layout_y="114dp"
+        android:text="      "
+        android:textColor="@android:color/white"
+        android:textSize="20pt"
+        tools:layout_editor_absoluteX="232dp"
+        tools:layout_editor_absoluteY="120dp" />
+
+    <TextView
+        android:id="@+id/textViewBallCount"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_x="292dp"
+        android:layout_y="207dp"
+        android:text="      "
+        android:textColor="@android:color/white"
+        android:textSize="20pt"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="214dp" />
+
+
+</AbsoluteLayout>
